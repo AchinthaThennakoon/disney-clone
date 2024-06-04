@@ -2,7 +2,7 @@ import React from "react";
 
 const MenuItem = ({ name, Icon }) => {
   return (
-    <div className="flex flex-row items-center gap-3 cursor-pointer hover:underline underline-offset-8">
+    <div className="flex flex-row items-center gap-3 cursor-pointer hover:underline underline-offset-8 mb-3">
       <Icon />
       <span>{name}</span>
     </div>
